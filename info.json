@@ -1,0 +1,98 @@
+{"events":
+  [
+      {
+        "id": "1", 
+        "name": "Festivo primero", 
+        "date": "06/6/2021", 
+        "type": "holiday"
+        
+      },
+      {
+        "id": "2", 
+        "name": "Festivo segundo", 
+        "date": "06/7/2021", 
+        "type": "holiday"
+        
+      },
+      {
+          "id": "3", 
+          "name": "Festivo tercero", 
+          "date": "06/13/2021", 
+          "type": "holiday"
+        
+      },
+      {
+          "id": "4",
+          "name": "Festivo cuarto", 
+          "date": "06/14/2021", 
+          "type": "holiday"
+        
+      },
+      {
+        "id": "4",
+        "name": "Festivo quinto", 
+        "date": "06/20/2021", 
+        "type": "holiday"
+      
+    },
+    {
+      "id": "4",
+      "name": "Festivo sexto", 
+      "date": "06/27/2021", 
+      "type": "holiday"
+    
+  },
+
+  {
+    "id": "1", 
+    "name": "Festivo primero", 
+    "date": "07/4/2021", 
+    "type": "holiday"
+    
+  },
+  {
+    "id": "2", 
+    "name": "Festivo segundo", 
+    "date": "07/5/2021", 
+    "type": "holiday"
+    
+  },
+  {
+      "id": "3", 
+      "name": "Festivo tercero", 
+      "date": "07/11/2021", 
+      "type": "holiday"
+    
+  },
+  {
+      "id": "4",
+      "name": "Festivo cuarto", 
+      "date": "07/18/2021", 
+      "type": "holiday"
+    
+  },
+  {
+    "id": "4",
+    "name": "Festivo quinto", 
+    "date": "07/20/2021", 
+    "type": "holiday"
+  
+},
+{
+  "id": "4",
+  "name": "Festivo sexto", 
+  "date": "07/25/2021", 
+  "type": "holiday"
+
+},
+      {
+          "id": "4", 
+          "name": "Vacation Leave whatever",
+          "badge": "02/9 - 02/1", 
+          "date": ["02/9/2021", "02/11/2021"], 
+          "description": "Vacation leave for 3 days.", 
+          "type": "event",
+          "color": "#63d867" 
+      }
+  ]
+  }

@@ -1,0 +1,55 @@
+body{
+    /*font-family: 'Courier New', Courier, monospace;*/
+   background: white;
+  /* background: red;*/
+}
+
+button{
+    background: red;
+}
+
+.hero{
+    width: 50%;
+    height: 50%;
+    
+}
+
+#conteo_dias{
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+#calendar{
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+#container {
+    display:grid;
+    grid-template-areas: "part1 part2";
+  }
+
+#frm_gesti_dias { 
+    grid-area:part1; 
+    background:white;
+    border: 1px solid black;
+    text-align: center;
+    width: 60%;
+}
+
+#calendario{ 
+    grid-area:part2; 
+    background:white; 
+    border: 1px solid black;
+    text-align: center;
+    
+    
+}

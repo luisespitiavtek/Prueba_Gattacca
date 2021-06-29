@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link href="css/evo-calendar.min.css" rel="stylesheet" type="text/css">
+    <link href="css/evo-calendar.midnight-blue.min.css" rel="stylesheet" type="text/css">
+    <title>Calendario</title>
+</head>
+<body>
+
+    <div id="container">
+        <div id="frm_gesti_dias">
+            <h2>Gestionar días</h2>
+            <form method="POST" action="/">
+                <p>Tipo de tiempo: <select name="slc_tipo_tiempo" id="slc_tipo_tiempo">
+                                        <option value="Vacaciones">Vacaciones</option>
+                                        <option value="Incapacidad" selected>Incapacidad </option>
+                                    </select></p>
+                <p>Fecha de inicio: <input type="date" name="fch_inicio" id="fch_inicio" min="2021-06-27"></p>
+                <p>Fecha de finalización: <input type="date" name="fch_fin" id="fch_fin" min="2021-06-27"></p>
+                <p>Solicitud: <label id="lbl_sol_dias"></label> Días
+                <p>
+                  <input type="submit" value="Guardar">
+                  <input type="reset" value="Borrar">
+                </p>
+              </form>
+        </div>
+        <br>
+    
+        <div id="calendario">
+            <h2>Conteo días</h2>
+            <div id="conteo_dias">
+                <label>Cantidad dias laborables: </label> 
+                <label id="lbl_cant_diaslaborables">25</label>
+                <br>
+                <label>Cantidad dias no laborables: </label>
+                <label id="lbl_cant_diasnolaborables">4</label>
+            </div>
+           
+        </div>
+        <div class="hero"> 
+            <div id="calendar"></div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
+    <script src="js/evo-calendar.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
